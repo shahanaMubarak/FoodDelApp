@@ -1,9 +1,7 @@
 import userModel from '../models/userModel.js';
 import jwt from 'jsonwebtoken';
-<<<<<<< HEAD
-=======
+
 import bcrypt from 'bcryptjs';
->>>>>>> 33692c96ec479c3363933c4bd098506cc388c906
 import validator from 'validator';
 import bcrypt from 'bcryptjs';
 
