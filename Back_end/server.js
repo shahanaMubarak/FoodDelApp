@@ -1,7 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-const bcrypt = require('bcryptjs');
-
+import bcrypt from 'bcryptjs';
 import { connectDB } from './config/db.js';
 import foodRouter from './routes/foodRouter.js';
 import cartRouter from './routes/cartRouter.js';
