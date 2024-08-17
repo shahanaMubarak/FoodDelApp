@@ -5,7 +5,7 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 
 import validator from 'validator';
-import bcrypt from 'bcryptjs';
+
 
 
 const createToken = (id) => {
