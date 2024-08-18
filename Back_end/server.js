@@ -16,7 +16,7 @@ const app = express();
 
 // Enable CORS
 app.use(cors({
-    origin: 'http://localhost:5173' // Replace with your frontend URL if different
+    origin: 'https://fooddelapp-front-end.onrender.com' // Replace with your frontend URL if different
 }));
 
 // Middleware to parse JSON and urlencoded data
